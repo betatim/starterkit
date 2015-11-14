@@ -6,11 +6,11 @@ workshop_site   : "http://swcarpentry.github.io/workshop-template"
 #--------------------------------------------------------------------------------
 # Standard Starterkit settings - should not need to be modified.
 #--------------------------------------------------------------------------------
-stk_contact     : "lhcbstarterkit@cern.ch"
+stk_contact     : "lhcb-starterkit@cern.ch"
 stk_files       : "http://files.software-carpentry.org"
-stk_github      : "http://github.com/lhcb"
+stk_github      : "http://github.com/lhcb/starterkit"
 stk_installer   : "http://files.software-carpentry.org/SWCarpentryInstaller.exe"
-stk_site        : "http://lhcb.github.io/starterkit"
+stk_site        : "http://betatim.github.io/starterkit"
 stk_vm          : "https://docs.google.com/uc?id=0B4Kr6DYkzkQtSTZLQzF4aVB4NDQ&export=download"
 #--------------------------------------------------------------------------------
 # Settings for Jekyll - should not need to be modified.
