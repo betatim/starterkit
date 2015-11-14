@@ -1,0 +1,22 @@
+#--------------------------------------------------------------------------------
+# Values for this workshop - EDIT THIS SECTION.
+#--------------------------------------------------------------------------------
+workshop_repo   : "http://github.com/swcarpentry/workshop-template"
+workshop_site   : "http://swcarpentry.github.io/workshop-template"
+#--------------------------------------------------------------------------------
+# Standard Starterkit settings - should not need to be modified.
+#--------------------------------------------------------------------------------
+stk_contact     : "lhcbstarterkit@cern.ch"
+stk_files       : "http://files.software-carpentry.org"
+stk_github      : "http://github.com/lhcb"
+stk_installer   : "http://files.software-carpentry.org/SWCarpentryInstaller.exe"
+stk_site        : "http://lhcb.github.io/starterkit"
+stk_vm          : "https://docs.google.com/uc?id=0B4Kr6DYkzkQtSTZLQzF4aVB4NDQ&export=download"
+#--------------------------------------------------------------------------------
+# Settings for Jekyll - should not need to be modified.
+#--------------------------------------------------------------------------------
+markdown        : kramdown
+kramdown        :
+  entity_output : as_input # &mdash; is output as &mdash;
+  smart_quotes  : [39, 39, 34, 34] # decimal for left/right single/double quotes
+exclude         : [tools]

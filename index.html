@@ -1,0 +1,44 @@
+---
+layout: overview
+root: .
+---
+
+<h2>The LHCb Starterkit</h2>
+
+<!--
+  INTRODUCTION
+
+  Edit the general explanatory paragraph below if you want to change
+  the pitch.
+-->
+<p>
+  <a href="{{site.stk_site}}">The LHCb Starterkit</a>'s mission
+  is to help LHCb scientists get more research done in less
+  time and with less pain by teaching them basic lab skills for
+  scientific computing.  The hands-on workshops will cover basic
+  concepts and tools, including program design, version control, data
+  management, and task automation.  Participants will be encouraged to
+  help one another and to apply what they have learned to their own
+  research problems.
+</p>
+
+
+<!--
+  CONTACT EMAIL ADDRESS
+
+  Display the contact email address set in the header.  If an address
+  isn't set in the header, the Software Carpentry admin address is
+  used.
+-->
+<p>
+  <strong>Contact</strong>:
+  Please mail
+  {% if page.contact %}
+    <a href='mailto:{{page.contact}}'>{{page.contact}}</a>
+  {% else %}
+    <a href='mailto:{{site.contact}}'>{{site.contact}}</a>
+  {% endif %}
+  for more information.
+</p>
+
+<hr/>
